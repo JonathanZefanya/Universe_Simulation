@@ -29,4 +29,4 @@ const {hosts, port} = await ctx.serve({
 })
 createProxyServer(hosts[0], port).listen(SERVE_PORT)
 
-console.log(`serving on http://localhost:${SERVE_PORT} and watching...`)
+console.log(`serving on http://localhost:${SERVE_PORT} and happy testing!`)

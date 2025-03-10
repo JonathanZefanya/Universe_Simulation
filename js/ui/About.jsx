@@ -37,7 +37,7 @@ export default function About() {
       </ul>
       <Typography variant='h4'>Learn more</Typography>
       <ul>
-        <li><Link to='/guide'>Developer guide</Link></li>
+        {/* <li><Link to='/guide'>Developer guide</Link></li> */}
         <li>
           <a
             href='https://github.com/JonathanZefanya/Universe_Simulation'
