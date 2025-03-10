@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "esbuild/serve.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "esbuild/serve.js"
+    }
+  ]
+}

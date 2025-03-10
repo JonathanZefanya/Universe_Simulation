@@ -7,16 +7,16 @@ export default function Welcome() {
   return (
     <>
       <h1>Welcome</h1>
-      <p>This is the developer guide for Celestiary.</p>
+      <p>This is the developer guide for Universe.</p>
 
-      <p>Celestiary is written using
+      <p>Universe is written using
         the <a href="https://threejs.org/">three.js</a> library for most of
         the graphics.  Three.js is a productivity layer on top of
         the <a href="https://en.wikipedia.org/wiki/WebGL">WebGL</a> capability
         available in all modern browsers.</p>
 
       <p>The topic guide to the left steps through how each of the main
-        functions of Celestiary are built.</p>
+        functions of Universe are built.</p>
 
       <p>Background reading:</p>
       <ul>

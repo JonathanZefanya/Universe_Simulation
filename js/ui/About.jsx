@@ -15,7 +15,7 @@ export default function About() {
   const [location] = useLocation()
   useEffect(() => setIsOpen(location === '/about'), [location])
   return (
-    <Dialog title='Celestiary' isOpen={isOpen} setIsOpen={setIsOpen} onCloseHref='~/'>
+    <Dialog title='Universe Simulation' isOpen={isOpen} setIsOpen={setIsOpen} onCloseHref='~/'>
       <p>A cosmological simulator</p>
 
       <Typography variant='h4'>Features</Typography>
@@ -40,7 +40,7 @@ export default function About() {
         <li><Link to='/guide'>Developer guide</Link></li>
         <li>
           <a
-            href='https://github.com/celestiary/web'
+            href='https://github.com/JonathanZefanya/Universe_Simulation'
             target='_blank'
             rel='noreferrer'
           >

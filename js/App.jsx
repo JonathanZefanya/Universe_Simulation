@@ -42,7 +42,7 @@ export default function App() {
     <>
       <ScopedCssBaseline/>
       <div ref={sceneRef} id='scene-id'/>
-      <div ref={navRef} id='nav-id' className='panel'>Welcome to Celestiary!  Loading...</div>
+      <div ref={navRef} id='nav-id' className='panel'>Welcome to Universe Simulation!  Loading...</div>
       <Stack id='top-right' className='panel' direction='column' justifyContent='flex-start' alignItems='flex-end'>
         {celestiary && <TimePanel time={celestiary.time} timeStr={timeStr} isPaused={isPaused} setIsPaused={setIsPaused}/>}
         <div id='text-buttons'>
