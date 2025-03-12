@@ -46,6 +46,7 @@ button {
   color: #069;
   text-decoration: underline;
   cursor: pointer;
+  /* Buat button */
 }
 
 .collapsed {
@@ -57,6 +58,9 @@ button {
   color: #ccc;
   z-index: 1;
   visibility: visible;
+  background-color: rgba(0, 0, 0, 0.795);
+  border-radius: 10px;
+  
 }
 
 .dialog {
@@ -149,6 +153,7 @@ button {
 
 #keys-id li {
   padding: 3px;
+  
 }
 
 #time-scale-id, #text-buttons {

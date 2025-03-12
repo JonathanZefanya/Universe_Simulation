@@ -21,7 +21,7 @@ export function makeCollapsable(elt, tagTypes) {
       collapse(toggleCtrl)
     }
     toggleCtrl.innerHTML =
-      eltClass(elt, 'check', 'collapsed') ? '[+]' : '[-]'
+      eltClass(elt, 'check', 'collapsed') ? '▶' : '▼'
     elt.parentNode.insertBefore(toggleCtrl, elt)
   }
   for (const cndx in copyOfChildNodes) {
@@ -41,10 +41,10 @@ export function collapse(ctrl) {
   const target = ctrl.nextSibling
   if (eltClass(target, 'check', 'collapsed')) {
     eltClass(target, 'remove', 'collapsed')
-    ctrl.innerHTML = '[-]'
+    ctrl.innerHTML = '▼'
   } else {
     eltClass(target, 'add', 'collapsed')
-    ctrl.innerHTML = '[+]'
+    ctrl.innerHTML = '▶'
   }
   return false
 }
