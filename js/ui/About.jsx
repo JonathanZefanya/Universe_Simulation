@@ -16,7 +16,7 @@ export default function About() {
   useEffect(() => setIsOpen(location === '/about'), [location])
   return (
     <Dialog title='Universe Simulation' isOpen={isOpen} setIsOpen={setIsOpen} onCloseHref='~/'>
-      <p>A cosmological simulator</p>
+      <p>A universe simulator</p>
 
       <Typography variant='h4'>Features</Typography>
       <ul>
@@ -32,8 +32,6 @@ export default function About() {
       <ul>
         <li>2024 Feb 18 - Use highly accurate <Link href='~/guide/vsop'>VSOP</Link> orbits
         for major planets.</li>
-        <li>2021 Jan 25 - Works in Safari 13.1.2+ on OSX, maybe earlier.
-          Now all major browsers tested except IE.</li>
       </ul>
       <Typography variant='h4'>Learn more</Typography>
       <ul>
