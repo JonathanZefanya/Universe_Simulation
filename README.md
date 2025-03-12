@@ -13,6 +13,7 @@
 ---
 
 ## 📦 Teknologi yang Digunakan
+- **NodeJS 22.14.0** ｡🇯‌🇸‌ - Framework JS yang berat
 - **ReactJS** ⚛️ - Library untuk membangun UI interaktif.
 - **Three.js** 🎥 - Library 3D untuk rendering grafis.
 - **Eslint** ⚡ - Build tool yang cepat untuk pengembangan React.
