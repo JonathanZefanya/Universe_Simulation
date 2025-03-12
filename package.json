@@ -1,16 +1,16 @@
 {
   "name": "celestiary",
-  "homepage": "https://github.com/celestiary/web#readme",
+  "homepage": "https://github.com/JonathanZefanya/Universe_Simulation#readme",
   "description": "Astronomical simulator web app.",
-  "author": "Pablo Mayrgundter",
-  "license": "ISC",
-  "version": "0.0.334",
+  "author": "JonathanZefanya",
+  "license": "MIT",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/celestiary/web.git"
+    "url": "git+https://github.com/JonathanZefanya/Universe_Simulation.git"
   },
   "bugs": {
-    "url": "https://github.com/celestiary/web/issues"
+    "url": "https://github.com/JonathanZefanya/Universe_Simulation/issues"
   },
   "scripts": {
     "build": "yarn clean && yarn copy && node esbuild/build.js",
