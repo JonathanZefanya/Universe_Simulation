@@ -1,6 +1,6 @@
 # 🌌 Universe Simulation
 
-🚀 **Universe Simulation** adalah sebuah proyek berbasis web yang mensimulasikan alam semesta dengan fokus pada tata surya kita. Dibangun menggunakan **ReactJS** dan didukung oleh **Three.js** untuk tampilan grafis 3D yang realistis dengan pengembangan dari (project solar system by iwun)[https://github.com/iWun/solar-system].
+🚀 **Universe Simulation** adalah sebuah proyek berbasis web yang mensimulasikan alam semesta dengan fokus pada tata surya kita. Dibangun menggunakan **ReactJS** dan didukung oleh **Three.js** untuk tampilan grafis 3D yang realistis dengan pengembangan dari [project solar system by iwun](https://github.com/iWun/solar-system).
 
 ---
 
